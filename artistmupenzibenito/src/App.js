@@ -1,11 +1,19 @@
-import React  from "react";
-import Navbar from "./Navbar";
+import React from 'react';
+import Navbar from './Navbar';
+import Home from './Home';
+import About from './About';
+import Services from './Services';
+import Contact from './Contact';
+import './style.css';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <h1>Welcome to Mupenzi Bento Web site</h1>
+      <Home />
+      <About />
+      <Services />
+      <Contact />
     </div>
   );
 }
